@@ -74,11 +74,11 @@ $(document).ready(function() {
         //set a variable equal to the current time from moment.js
 
         var currentTime = moment();
-        console.log("Current Time: " + moment(currentTime).format("hh:mm:ss"));
+        console.log("Current Time: " + moment(currentTime).format("hh:mm"));
 
         //post current time to jumbotron for reference
 
-        $("#currentTime").html("Current Time: " + moment(currentTime).format("hh:mm:ss"));
+        $("#currentTime").html("Current Time: " + moment(currentTime).format("hh:mm"));
 
         //find the difference between the first train time and the current time
 
