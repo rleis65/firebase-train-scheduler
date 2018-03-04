@@ -41,7 +41,7 @@ $(document).ready(function() {
 
         dataRef.ref().push({
             name: name,
-            role: destination,
+            destination: destination,
             time: firstTrain,
             frequency: frequency
         });
